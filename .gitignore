@@ -27,3 +27,6 @@ hs_err_pid*
 /jus.crypto.impl/target/
 /jus.crypto.use/target/
 /.idea/
+/.fastRequest/collections/Root/Default Group/directory.json
+/.fastRequest/collections/Root/directory.json
+/.fastRequest/config/fastRequestCurrentProjectConfig.json
