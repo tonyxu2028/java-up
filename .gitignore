@@ -26,3 +26,4 @@ hs_err_pid*
 /jus.crypto/target/
 /jus.crypto.impl/target/
 /jus.crypto.use/target/
+/.idea/
