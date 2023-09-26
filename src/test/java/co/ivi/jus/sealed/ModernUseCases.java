@@ -25,11 +25,12 @@ public class ModernUseCases {
     }
 
     public static boolean isSquare(Shape shape) {
-        return switch (shape) {
-            case null -> false;
-            case Square s -> true;
-            case Rectangle r -> r.length == r.width;
-            default -> false;
-        };
+//        return switch (shape) {
+//            case null -> false;
+//            case Square s -> true;
+//            case Rectangle r -> r.length == r.width;
+//            default -> false;
+//        };
+        return  false;
     }
 }
