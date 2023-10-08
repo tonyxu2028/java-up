@@ -15,14 +15,14 @@ public interface Digest {
                 ServiceLoader.load(DigestManager.class);
         for (DigestManager cryptoManager : serviceLoader) {
             Returned<Digest> rt = cryptoManager.create(algorithm);
-//            switch (rt) {
-//                case Returned.ReturnValue rv -> {
-//                    return rv;
-//                }
-//                case Returned.ErrorCode ec -> {
-//                    continue;
-//                }
-//            }
+            switch (rt) {
+                case Returned.ReturnValue rv -> {
+                    return rv;
+                }
+                case Returned.ErrorCode ec -> {
+                    continue;
+                }
+            }
         }
 
         return Returned.UNDEFINED;
