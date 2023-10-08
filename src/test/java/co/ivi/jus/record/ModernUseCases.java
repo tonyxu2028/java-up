@@ -19,4 +19,5 @@ public class ModernUseCases {
         System.out.println("It is a c1 " + c1);
         System.out.println("It is a c2 " + c2);
     }
+
 }
